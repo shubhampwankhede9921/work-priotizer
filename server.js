@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const cohereApiKey = 'V1HV7drP9rS52acU1Li07BLb0RUMEEMfdkssQNtO'
+const cohereApiKey = 
 if (!cohereApiKey) {
   console.warn('COHERE_API_KEY is not set. Set it in a .env file in the project root.')
 }
